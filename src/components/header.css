@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #282D35;
+    font-family: sans-serif;
+    background-image: url("../images/png-transparent-react-computer-icons-redux-javascript-others-logo-symmetry-nodejs-thumbnail.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.logo {
+    float: left;
+}
+
+nav > h3, nav > h2 {
+    margin: 0;
+}
+
+nav > h2 {
+    margin-right: auto;
+    color: aliceblue;
+}
+
+nav > h3 {
+    color: aliceblue;
+}
+
+nav > img {
+    height: 30px;
+}
+
+.nav-info {
+    color: rgb(26, 135, 231);
+}

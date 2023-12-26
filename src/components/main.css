@@ -1,0 +1,23 @@
+main {
+  padding: 57px 300px;  
+  color: white;
+  
+}
+
+main > h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+main > ul >li {
+    font-size: 30px;
+    padding: 20px;
+}
+
+main > ul {
+    padding-left: 80px;
+}
+
+ul ::marker{
+    color: rgb(0, 162, 255);
+}
